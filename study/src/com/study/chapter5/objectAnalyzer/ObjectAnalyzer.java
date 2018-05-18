@@ -53,7 +53,7 @@ class ObjectAnalyzer {
                 }
             }
             r.append("]");
-            cl = cl.getSuperclass();
+                    cl = cl.getSuperclass();
         }
         while(cl != null);
         return r.toString();
